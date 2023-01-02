@@ -1,0 +1,128 @@
+<?xml version="1.0"?>
+<languages>
+    <language name="Java">
+        <rule color="#0000ff" name="Access Modifiers" style="bold">
+            <word>public</word>
+            <word>protected</word>
+            <word>private</word>
+        </rule>
+        <rule color="#0000ff" name="Modifiers" style="italic">
+            <word>final</word>
+            <word>native</word>
+            <word>static</word>
+            <word>strictfp</word>
+            <word>transient</word>
+            <word>volatile</word>
+        </rule>
+        <rule color="#00aa00" name="Primitives" style="bold">
+            <word>int</word>
+            <word>long</word>
+            <word>byte</word>
+            <word>short</word>
+            <word>boolean</word>
+            <word>float</word>
+            <word>double</word>
+            <word>char</word>
+            <word>null</word>
+            <word>true</word>
+            <word>false</word>
+            <word>void</word>
+        </rule>
+        <rule color="#ffa500" name="Data Structures" style="bold">
+            <word>class</word>
+            <word>import</word>
+            <word>interface</word>
+            <word>enum</word>
+            <word>package</word>
+        </rule>
+        <rule color="#880085" name="Control Structures" style="bold">
+            <word>assert</word>
+            <word>break</word>
+            <word>case</word>
+            <word>catch</word>
+            <word>continue</word>
+            <word>default</word>
+            <word>do</word>
+            <word>else</word>
+            <word>finally</word>
+            <word>for</word>
+            <word>if</word>
+            <word>switch</word>
+            <word>synchronized</word>
+            <word>throw</word>
+            <word>throws</word>
+            <word>try</word>
+            <word>while</word>
+        </rule>
+        <rule color="#ff00ff" name="Object-Oriented Programming" style="italic">
+            <word>abstract</word>
+            <word>extends</word>
+            <word>implements</word>
+            <word>instanceof</word>
+            <word>new</word>
+            <word>return</word>
+            <word>super</word>
+            <word>this</word>
+        </rule>
+        <rule color="#cc0000" name="Unused" style="bold, italic">
+            <word>goto</word>
+            <word>const</word>
+        </rule>
+        <rule color="#00aa00" name="Comments">
+            <comment type="line" start="//" />
+            <comment type="inline" start="/*" end="*/" />
+            <string type="double" marker="&quot;" />
+            <string type="single" marker="'" />
+        </rule>
+    </language>
+    <language name="JavaScript">
+        <rule color="#120a8f" name="Control Structures" style="bold">
+            <word>break</word>
+            <word>case</word>
+            <word>catch</word>
+            <word>continue</word>
+            <word>debugger</word>
+            <word>default</word>
+            <word>do</word>
+            <word>else</word>
+            <word>for</word>
+            <word>finally</word>
+            <word>if</word>
+            <word>switch</word>
+            <word>try</word>
+            <word>while</word>
+            <word>with</word>
+        </rule>
+        <rule color="#4b0082" name="Data Structures and Variables">
+            <word>class</word>
+            <word>const</word>
+            <word>delete</word>
+            <word>extends</word>
+            <word>export</word>
+            <word>import</word>
+            <word>in</word>
+            <word>instanceof</word>
+            <word>let</word>
+            <word>new</word>
+            <word>super</word>
+            <word>this</word>
+            <word>typeof</word>
+            <word>var</word>
+            <word>void</word>
+        </rule>
+        <rule color="#00008B" name="Functions" style="bold, italic">
+            <word>async</word>
+            <word>await</word>
+            <word>function</word>
+            <word>return</word>
+            <word>throw</word>
+            <word>yield</word>
+        </rule>
+        <rule color="#3457D5" name="Comments and Strings">
+            <comment type="line" start="//" />
+            <comment type="inline" start="/*" end="*/" />
+            <string type="double" marker="&quot;" />
+            <string type="single" marker="'" />
+        </rule>
+    </language>
+</languages>
